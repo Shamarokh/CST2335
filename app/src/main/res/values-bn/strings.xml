@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_message">ওহে বিশ্ব!</string>
+    <string name="ButtonText">I\’m a button</string>
+</resources>
