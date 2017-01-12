@@ -26,4 +26,5 @@
         android:text="@string/hello_message"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/button" />
+
 </RelativeLayout>
