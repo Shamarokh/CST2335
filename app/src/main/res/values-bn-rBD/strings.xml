@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello_message">ওহে বিশ্ব!</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">আমি একটি বাটন</string>
+
+    <string name="login">লগইন</string>
+     <string name="password">পাসওয়ার্ড</string>
+
+    <string name="btn1Text">রেডিও বোতাম</string>
+    <string name="btn2Text">Button 2</string>
+    <string name="SwitchText">কিছু সক্রিয়</string>
+
+
 </resources>
