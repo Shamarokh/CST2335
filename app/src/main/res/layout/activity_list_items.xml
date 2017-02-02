@@ -17,12 +17,8 @@
         android:layout_alignParentStart="false"
         android:columnCount="2"
         android:rowCount="2"
-
-
         android:gravity="fill"
-
-
-        >
+       >
 
         <RadioButton
             android:layout_columnWeight="1"
