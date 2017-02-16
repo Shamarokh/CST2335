@@ -10,11 +10,10 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 
 public class StartActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "StartActivity";
@@ -46,6 +45,17 @@ public class StartActivity extends AppCompatActivity {
 
 
         } );
+
+
+        Button button3 = (Button) findViewById(R.id.b3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent =new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

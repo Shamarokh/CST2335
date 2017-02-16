@@ -15,4 +15,10 @@
 
     <string name="login_default">example@domain.com</string>
     <string name="login_key">Default Email</string>
+
+    <string name="btnchat">Start Chat</string>
+    <string name="btnsend">SEND</string>
+    <string name="editText">Edit Text</string>
+    <string name="message_text">Message_Text</string>
+
 </resources>

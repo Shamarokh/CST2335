@@ -10,5 +10,8 @@
     <string name="btn2Text">Button 2</string>
     <string name="SwitchText">কিছু সক্রিয়</string>
 
+    <string name="btnsend">পাঠান</string>
+    <string name="btnchat">স্টার্ট চ্যাট</string>
+
 
 </resources>
