@@ -37,4 +37,23 @@
         android:layout_marginTop="27dp"
         android:id="@+id/b3" />
 
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weatherButtonText"
+        android:layout_below="@+id/b3"
+        android:layout_alignStart="@+id/b3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:text="@string/test_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/test_toolbar_button"
+        android:layout_below="@+id/weatherButton"
+        android:layout_alignStart="@+id/b3" />
+
 </RelativeLayout>

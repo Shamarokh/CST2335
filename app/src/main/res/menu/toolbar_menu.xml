@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Camera"
+        android:title="Camera"
+        android:icon="@drawable/camera"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+    <item android:id="@+id/Music"
+        android:title="Music"
+        android:icon="@drawable/music"
+        android:orderInCategory="201"
+        app:showAsAction="always" />
+    <item android:id="@+id/Chat"
+        android:title="Chat"
+        android:icon="@drawable/chat"
+        android:orderInCategory="151"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_about"
+        android:title="about"
+        android:orderInCategory="201" />
+
+
+
+</menu>

@@ -14,13 +14,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -175,4 +172,10 @@ public class WeatherForecast extends AppCompatActivity {
 
     }
 
+    /**
+     * Created by Shama on 2017-03-23.
+     */
+
+    public static class MessageFragment {
+    }
 }

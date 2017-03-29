@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 public class TestToolbar extends AppCompatActivity {
     private static final String LOG = "TestToolbar";
-    String snackbarMessage = "This is a Flag.";
+    String snackbarMessage = "You selected item 1";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +63,7 @@ public class TestToolbar extends AppCompatActivity {
                 // If they select the negative button then do nothing.
                 // Set this to be the code for selecting on the second toolbar item.
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("Do you want to go back?");
+                builder.setTitle("cancel");
 
                 builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     @Override
@@ -74,7 +74,7 @@ public class TestToolbar extends AppCompatActivity {
                 builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        onBackPressed();
+                        //onBackPressed();
                     }
                 });
                 AlertDialog dialog = builder.create();
@@ -101,7 +101,7 @@ public class TestToolbar extends AppCompatActivity {
                 });
                 dialogBuilder.setNegativeButton(R.string.back, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        onBackPressed();
+                     //   onBackPressed();
                     }
                 });
                 AlertDialog b = dialogBuilder.create();
